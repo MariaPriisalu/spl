@@ -1,16 +1,16 @@
 # Official Repository of Semantic Synthesis of Pedestrian Locomotion and Generating Scenarios with Diverse Pedestrian Behaviors for Autonomous Vehicle Testing #
 
-Code for the papers _Semantic Synthesis of Pedestrian Locomotion_ published at Asian Conference on Computer Vision (ACCV) 2020 
-and _Generating Scenarios with Diverse Pedestrian Behaviors for Autonomous Vehicle Testing_ to be published at Conference on Robot Learning (CoRL) 2021. 
+Code for the papers [_Semantic Synthesis of Pedestrian Locomotion_](https://openaccess.thecvf.com/content/ACCV2020/html/Priisalu_Semantic_Synthesis_of_Pedestrian_Locomotion_ACCV_2020_paper.html) published at Asian Conference on Computer Vision (ACCV) 2020 
+and [_Generating Scenarios with Diverse Pedestrian Behaviors for Autonomous Vehicle Testing_](https://openreview.net/forum?id=HTfApPeT4DZ) to be published at Conference on Robot Learning (CoRL) 2021. 
 
 You can find the paper _Semantic Synthesis of Pedestrian Locomotion_ [here](https://openaccess.thecvf.com/content/ACCV2020/html/Priisalu_Semantic_Synthesis_of_Pedestrian_Locomotion_ACCV_2020_paper.html), a spotlight video [here](https://youtu.be/xRdbkPtF7SU), and a presentation of the paper [here](https://accv2020.github.io/miniconf/poster_246.html).
 
-**Authors:** [Maria Priisalu](http://www.maths.lth.se/sminchisescu/research/profile/7/maria-priisalu), [Ciprian Paduraru](https://scholar.google.com/citations?user=EaAekU4AAAAJ&hl=en), [Aleksis Pirinen](https://aleksispi.github.io/) and [Cristian Sminchisescu](http://www.maths.lth.se/sminchisescu/)
+**Authors:** [Maria Priisalu](http://www.maths.lth.se/sminchisescu/research/profile/7/maria-priisalu), [Ciprian Paduraru](https://scholar.google.com/citations?user=EaAekU4AAAAJ&hl=en), [Aleksis Pirinen](https://www.ri.se/en/person/aleksis-pirinen) and [Cristian Sminchisescu](http://www.maths.lth.se/sminchisescu/)
 
-You can find the paper _Generating Scenarios with Diverse Pedestrian Behaviors for Autonomous Vehicle Testing_ [here](https://openreview.net/forum?id=HTfApPeT4DZ) with the ![poster](https://github.com/MariaPriisalu/spl/blob/master/Corl-poster-final.png?raw=true).
+You can find the paper _Generating Scenarios with Diverse Pedestrian Behaviors for Autonomous Vehicle Testing_ [here](https://openreview.net/forum?id=HTfApPeT4DZ) and a [a short video presentation](https://youtu.be/Wpa4P0X17MI). The CoRL 2021 poster can be seen below.
 
-**Authors:** [Maria Priisalu](http://www.maths.lth.se/sminchisescu/research/profile/7/maria-priisalu), [Aleksis Pirinen](https://aleksispi.github.io/), [Ciprian Paduraru](https://scholar.google.com/citations?user=EaAekU4AAAAJ&hl=en) and [Cristian Sminchisescu](http://www.maths.lth.se/sminchisescu/)
-
+**Authors:** [Maria Priisalu](http://www.maths.lth.se/sminchisescu/research/profile/7/maria-priisalu), [Aleksis Pirinen](https://www.ri.se/en/person/aleksis-pirinen), [Ciprian Paduraru](https://scholar.google.com/citations?user=EaAekU4AAAAJ&hl=en) and [Cristian Sminchisescu](http://www.maths.lth.se/sminchisescu/)
+![poster](https://github.com/MariaPriisalu/spl/blob/master/Corl-poster-final.png?raw=true)
 
 ### Overview
 This repository contains code for training an RL-agent on the 3D point-clouds of cityscapes.
@@ -109,14 +109,14 @@ for each epoch E:
 ## Semantic Pedestrian Locomotion Models
 Models mentioned in the ACCV paper can be found in localData/Models/SemanticPedestrian.
 
-There are two CARLA agents: a goal free generative/forecasting model (train_pfnn_pose_penalized_2020-06-30-22-25-50.394548) and a goal-driven generative model(train_carla_goal_new_reward_pfnn_new_penalty_2020-07-04-23-24-16.893992).
+There are two CARLA agents: a goal free generative/forecasting model and a goal-driven generative model.
 
-On the Waymo dataset there is one agent: a goal free generative/forecasting model (agent_waymo_goal_free_pfnn_2020-07-05-15-15-49.541581).
+On the Waymo dataset there is one agent: a goal free generative/forecasting model.
 
-On the Cityscapes dataset there is one agent: goal-driven generative model (train_cityscapes_pfnn_angular_old_penalty_2020-07-04-17-52-32.011443).
+On the Cityscapes dataset there is one agent: goal-driven generative model.
 
 
-Settings in RL/setting.py
+Settings in RL/settings.py
 Include the folder name of the weights you want to use in model. The model is searched for th path in settings.img_dir.
 Remember to set the goal_dir=True in RL/setting.py for goal reaching agents and to goal_dir=False for goal free agents.
 To just run the SPL pedestrian agent make sure the following settings are False: 
