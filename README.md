@@ -1,7 +1,9 @@
 # Official Repository of _Semantic Synthesis of Pedestrian Locomotion_ and _Generating Scenarios with Diverse Pedestrian Behaviors for Autonomous Vehicle Testing_ #
-![poster](https://github.com/MariaPriisalu/spl/blob/master/waymo_example_2_crop.png?raw=true)
+
 Code for the papers [_Semantic Synthesis of Pedestrian Locomotion_](https://openaccess.thecvf.com/content/ACCV2020/html/Priisalu_Semantic_Synthesis_of_Pedestrian_Locomotion_ACCV_2020_paper.html) published at Asian Conference on Computer Vision (ACCV) 2020 
 and [_Generating Scenarios with Diverse Pedestrian Behaviors for Autonomous Vehicle Testing_](https://openreview.net/forum?id=HTfApPeT4DZ) to be published at Conference on Robot Learning (CoRL) 2021. 
+
+![poster](https://github.com/MariaPriisalu/spl/blob/master/waymo_example_2_crop.png?raw=true)
 
 You can find the paper _Semantic Synthesis of Pedestrian Locomotion_ [here](https://openaccess.thecvf.com/content/ACCV2020/html/Priisalu_Semantic_Synthesis_of_Pedestrian_Locomotion_ACCV_2020_paper.html), a spotlight video [here](https://youtu.be/xRdbkPtF7SU), and a presentation of the paper [here](https://accv2020.github.io/miniconf/poster_246.html).
 
@@ -13,10 +15,10 @@ You can find the paper _Generating Scenarios with Diverse Pedestrian Behaviors f
 ![poster](https://github.com/MariaPriisalu/spl/blob/master/Corl-poster-final.png?raw=true)
 
 ### Overview
-This repository contains code for training an RL-agent on the 3D point-clouds of cityscapes.
-The RL-logic and agent are in the folder `RL`.
-The policy gradient network with two 3D convolutional layers can be found in the class `net.py`.
-The agent's logic (moving after an action) can be found in the abstract class `agent.py`.
+This repository contains code for training the Semantic Pedestrian Locomotion agent and the Adversarial Test Synthesizer.
+The reinforcement learning logic and agents are in the folder `RL`.
+The the Semantic Pedestrian Locomotion policy gradient network with two 3D convolutional layers can be found in the class `Seg_2d_min_softmax` in `net_sem_2d.py`, and the Adversarial Test Synthesizer in the class `InitializerNet` in `initializer_net.py`.
+The pedestrian agent's logic (moving after an action) can be found in the abstract class `agent.py`.
 
 
 The class `Episode` is a container class. It contains the agent's actions, positions, and reward for the length of an episode.
@@ -27,7 +29,15 @@ The class `test_episode.py` contains unit tests for the initialization of an epi
 The class `test_tensor` contains unit tests for the 3D reconstruction needed for environment.
 
 Other folders:
- `reconstruct 3D`: Reconstruction of the 3D RGB and Segmentation in cityscapes.
+ `CARLA_simulation_client`: CARLA Client code for gathering a CARLA dataset.
+ `colmap`: scripts utilizing a modified version of colmap.
+ `commonUtils`: The adapted PFNN code base and some environment descriptions.
+ `Datasets`: empty folder for gathered datasets. 
+ `licences`: the licences of some of the libraries the repository uses.
+ `localData`: contains trained models in `Models` and experimental results in `come_results`.
+ `localUserData`: a directory structure to gather data from experiments.
+ `tests`: various unit tests.
+ `triangulate_cityscapes`: Reconstruction of the 3D RGB and Segmentation using cityscapes depthmaps and triangulation- not used in the paper.
  `utils`: various utility functions
 
 ### Running the code
