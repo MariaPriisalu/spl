@@ -1,4 +1,4 @@
-# Official Repository of Semantic Synthesis of Pedestrian Locomotion and Generating Scenarios with Diverse Pedestrian Behaviors for Autonomous Vehicle Testing #
+# Official Repository of _Semantic Synthesis of Pedestrian Locomotion_ and _Generating Scenarios with Diverse Pedestrian Behaviors for Autonomous Vehicle Testing_ #
 
 Code for the papers [_Semantic Synthesis of Pedestrian Locomotion_](https://openaccess.thecvf.com/content/ACCV2020/html/Priisalu_Semantic_Synthesis_of_Pedestrian_Locomotion_ACCV_2020_paper.html) published at Asian Conference on Computer Vision (ACCV) 2020 
 and [_Generating Scenarios with Diverse Pedestrian Behaviors for Autonomous Vehicle Testing_](https://openreview.net/forum?id=HTfApPeT4DZ) to be published at Conference on Robot Learning (CoRL) 2021. 
@@ -82,22 +82,22 @@ Please see the yml file for the exact anaconda environment.
 Note that pfnncharacter is a special library and must be installed by hand. See below.
 
 ### Installation
-Install the conda environment according to environment.yml
-To install pfnncharacter enter commonUtils/PFNNBaseCode and follow the README.
+Install the conda environment according to `environment.yml`
+To install pfnncharacter enter `commonUtils/PFNNBaseCode` and follow the README.
 
 # Datasets
 ## CARLA
-In CARLA 0.8.2 or 0.9.4 you can gather the equivalent dataset with the scripts in CARLA_simulation_client.
+In CARLA 0.8.2 or 0.9.4 you can gather the equivalent dataset with the scripts in `CARLA_simulation_client`.
 
 ## Cityscapes
 To create the Cityscapes dataset you need to have downloaded the cityscapes dataset, and you need to attain the semantic segmentation and bounding boxes of each image. After this the scripts in colmap can be used to create 3d reconstructions of the dataset.  
 
 ## Waymo dataset
-Please check the documentation of the fork here to understand how to use the pipeline to get out the dataset needed for training/visualization [here](https://github.com/AGAPIA/waymo-open-dataset) .Also it currently depends on the segmentation from here: https://github.com/AGAPIA/semantic-segmentation-pytorch 
+Please check the documentation of the fork here to understand how to use the pipeline to get out the dataset needed for training/visualization [here](https://github.com/AGAPIA/waymo-open-dataset). Also it currently depends on the segmentation from [here](https://github.com/AGAPIA/semantic-segmentation-pytorch)
 
-Use script RL/visualization_scripts/show_real_reconstruction_small.py for visualization purposes and an example on how to initialize correctly data data for setting up the environment.
+Use script <code>RL/visualization_scripts/show_real_reconstruction_small.py</code> for visualization purposes and an example on how to initialize correctly data data for setting up the environment.
 ### Caching mechanism
-The caching of episodes data happens in environment_abstract.py, inside set_up_episode function. This means that the first time around may be slow, but once the dataset is cached everything will run faster.
+The caching of episodes data happens in <code>environment_abstract.py</code>, inside <code>set_up_episode</code> function. This means that the first time around may be slow, but once the dataset is cached everything will run faster.
 
 ```
 for each epoch E:
@@ -107,7 +107,7 @@ for each epoch E:
 ```
 # Models 
 ## Semantic Pedestrian Locomotion Models
-Models mentioned in the ACCV paper can be found in localData/Models/SemanticPedestrian.
+Models mentioned in the ACCV paper can be found in `localData/Models/SemanticPedestrian`.
 
 There are two CARLA agents: a goal free generative/forecasting model and a goal-driven generative model.
 
@@ -116,9 +116,9 @@ On the Waymo dataset there is one agent: a goal free generative/forecasting mode
 On the Cityscapes dataset there is one agent: goal-driven generative model.
 
 
-Settings in RL/settings.py
-Include the folder name of the weights you want to use in model. The model is searched for th path in settings.img_dir.
-Remember to set the goal_dir=True in RL/setting.py for goal reaching agents and to goal_dir=False for goal free agents.
+Settings in `RL/settings.py`
+Include the folder name of the weights you want to use in model. The model is searched for the path in `settings.img_dir`.
+Remember to set the `goal_dir=True` in `RL/setting.py` for goal reaching agents and to `goal_dir=False` for goal free agents.
 To just run the SPL pedestrian agent make sure the following settings are False: 
 ```
     self.learn_init = False # Do we need to learn initialization
@@ -129,12 +129,12 @@ To just run the SPL pedestrian agent make sure the following settings are False:
     self.useHeroCar = False
     self.useRLToyCar = False
 ```
-When running on carla set carla=True and waymo=False. 
-When running on waymo set carla=False and waymo=True. 
-When running on cityscapes set carla=False and waymo=False. 
+When running on carla set `carla=True` and `waymo=False`. 
+When running on waymo set `carla=False` and `waymo=True`. 
+When running on cityscapes set `carla=False` and `waymo=False`. 
 
 ## Adversarial Test Synthesizer Models
-Models mentioned in the CoRL paper can be found in localData/Models/BehaviorVariedTestCaseGeneration.
+Models mentioned in the CoRL paper can be found in `localData/Models/BehaviorVariedTestCaseGeneration`.
 
 
 To instead train the Adversarial Test Synthesizer make sure that the following settings are True:
