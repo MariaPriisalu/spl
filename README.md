@@ -1,4 +1,5 @@
 # Official Repository of _Semantic Synthesis of Pedestrian Locomotion_ and _Generating Scenarios with Diverse Pedestrian Behaviors for Autonomous Vehicle Testing_ #
+![pedestrian-motion-gif ](https://github.com/MariaPriisalu/spl/blob/master/viz.gif?raw=true)
 
 Code for the papers [_Semantic Synthesis of Pedestrian Locomotion_](https://openaccess.thecvf.com/content/ACCV2020/html/Priisalu_Semantic_Synthesis_of_Pedestrian_Locomotion_ACCV_2020_paper.html) published at Asian Conference on Computer Vision (ACCV) 2020 
 and [_Generating Scenarios with Diverse Pedestrian Behaviors for Autonomous Vehicle Testing_](https://openreview.net/forum?id=HTfApPeT4DZ) to be published at Conference on Robot Learning (CoRL) 2021. 
