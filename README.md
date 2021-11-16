@@ -20,12 +20,12 @@ You can find the paper _Generating Scenarios with Diverse Pedestrian Behaviors f
 ### Overview
 This repository contains code for training the Semantic Pedestrian Locomotion agent and the Adversarial Test Synthesizer.
 The reinforcement learning logic and agents are in the folder `RL`.
-The the Semantic Pedestrian Locomotion policy gradient network with two 3D convolutional layers can be found in the class `Seg_2d_min_softmax` in `net_sem_2d.py`, and the Adversarial Test Synthesizer in the class `InitializerNet` in `initializer_net.py`.
+The Semantic Pedestrian Locomotion policy gradient network with two 3D convolutional layers can be found in the class `Seg_2d_min_softmax` in `net_sem_2d.py`, and the Adversarial Test Synthesizer in the class `InitializerNet` in `initializer_net.py`.
 The pedestrian agent's logic (moving after an action) can be found in the abstract class `agent.py`.
 
 
 The class `Episode` is a container class. It contains the agent's actions, positions, and reward for the length of an episode.
-The class `Environment` goes through different episode set-ups (different environments) and applies the agent in the method `work`.
+The class `Environment` goes through different episode setups (different environments) and applies the agent in the method `work`.
 Currently this class also contains the visualization of the agent.
 
 The class `test_episode.py` contains unit tests for the initialization of an episode, and the different parts of the reward.
