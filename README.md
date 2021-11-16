@@ -1,5 +1,5 @@
 # Official Repository of _Semantic Synthesis of Pedestrian Locomotion_ and _Generating Scenarios with Diverse Pedestrian Behaviors for Autonomous Vehicle Testing_ #
-![pedestrian-motion-gif ](https://github.com/MariaPriisalu/spl/blob/master/viz.gif?raw=true)
+![pedestrian-motion-gif](https://github.com/MariaPriisalu/spl/blob/master/viz.gif?raw=true)
 
 Code for the papers [_Semantic Synthesis of Pedestrian Locomotion_](https://openaccess.thecvf.com/content/ACCV2020/html/Priisalu_Semantic_Synthesis_of_Pedestrian_Locomotion_ACCV_2020_paper.html) published at Asian Conference on Computer Vision (ACCV) 2020 
 and [_Generating Scenarios with Diverse Pedestrian Behaviors for Autonomous Vehicle Testing_](https://openreview.net/forum?id=HTfApPeT4DZ) to be published at Conference on Robot Learning (CoRL) 2021. 
@@ -9,6 +9,9 @@ and [_Generating Scenarios with Diverse Pedestrian Behaviors for Autonomous Vehi
 You can find the paper _Semantic Synthesis of Pedestrian Locomotion_ [here](https://openaccess.thecvf.com/content/ACCV2020/html/Priisalu_Semantic_Synthesis_of_Pedestrian_Locomotion_ACCV_2020_paper.html), a spotlight video [here](https://youtu.be/xRdbkPtF7SU), and a presentation of the paper [here](https://accv2020.github.io/miniconf/poster_246.html).
 
 **Authors:** [Maria Priisalu](http://www.maths.lth.se/sminchisescu/research/profile/7/maria-priisalu), [Ciprian Paduraru](https://scholar.google.com/citations?user=EaAekU4AAAAJ&hl=en), [Aleksis Pirinen](https://www.ri.se/en/person/aleksis-pirinen) and [Cristian Sminchisescu](http://www.maths.lth.se/sminchisescu/)
+
+![pedestrian-hit-gif](https://github.com/MariaPriisalu/spl/blob/master/hit.gif?raw=true)
+![pedestrian-not-hit-gif](https://github.com/MariaPriisalu/spl/blob/master/not_hit.gif?raw=true)
 
 You can find the paper _Generating Scenarios with Diverse Pedestrian Behaviors for Autonomous Vehicle Testing_ [here](https://openreview.net/forum?id=HTfApPeT4DZ) and a [a short video presentation](https://youtu.be/Wpa4P0X17MI). The CoRL 2021 poster can be seen below.
 
