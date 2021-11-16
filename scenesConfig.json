@@ -1,0 +1,44 @@
+{
+	"scenes":{
+		"scene20":{
+			"map":"Town03",
+			"X":43,
+			"Y":129,
+			"Z":4.87,
+			"pitch":-1.59,
+			"roll":0.0,
+			"yaw":-178,
+			"voxelRes":5.0,
+			"voxelsX":4096,
+			"voxelsY":4096,
+			"voxelsZ":700
+			},
+		"scene1":{
+			"map":"Town03",
+			"X":-30.0, 
+			"Y":134.663,
+			"Z":11.130,
+			"pitch":0.0,
+			"roll":0.0,
+			"yaw":0.0,
+			"voxelRes":5.0,
+			"voxelsX":4096,
+			"voxelsY":4096,
+			"voxelsZ":1000
+			},
+			
+		"scene2":{
+			"map":"Town03",
+			"X":-10.0, 
+			"Y":-155.48,
+			"Z":0.57,
+			"pitch":-7.19,
+			"roll":0.0,
+			"yaw":-94.8,
+			"voxelRes":5.0,
+			"voxelsX":4096,
+			"voxelsY":4096,
+			"voxelsZ":1000
+			}
+	}
+}
