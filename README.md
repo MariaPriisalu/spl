@@ -1,5 +1,5 @@
 # Official Repository of _Semantic Synthesis of Pedestrian Locomotion_ and _Generating Scenarios with Diverse Pedestrian Behaviors for Autonomous Vehicle Testing_ #
-
+![poster](https://github.com/MariaPriisalu/spl/blob/master/waymo_example_2_crop.png?raw=true)
 Code for the papers [_Semantic Synthesis of Pedestrian Locomotion_](https://openaccess.thecvf.com/content/ACCV2020/html/Priisalu_Semantic_Synthesis_of_Pedestrian_Locomotion_ACCV_2020_paper.html) published at Asian Conference on Computer Vision (ACCV) 2020 
 and [_Generating Scenarios with Diverse Pedestrian Behaviors for Autonomous Vehicle Testing_](https://openreview.net/forum?id=HTfApPeT4DZ) to be published at Conference on Robot Learning (CoRL) 2021. 
 
@@ -79,7 +79,7 @@ If you use this code in your academic work please cite one of the works,
 ### Prerequisites
 The models have been trained on Ubuntu 16.04, Tensorflow 1.15.04 (see official prerequists), python 3.7.7 on Nvidia Titan Xp.
 Please see the yml file for the exact anaconda environment. 
-Note that pfnncharacter is a special library and must be installed by hand. See below.
+Note that `pfnncharacter` is a special library and must be installed by hand. See below.
 
 ### Installation
 Install the conda environment according to `environment.yml`
