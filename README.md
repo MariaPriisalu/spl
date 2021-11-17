@@ -12,7 +12,7 @@ You can find the paper _Semantic Synthesis of Pedestrian Locomotion_ [here](http
 
 <img src="https://github.com/MariaPriisalu/spl/blob/master/hit.gif" width="500"> <img src="https://github.com/MariaPriisalu/spl/blob/master/not_hit.gif" width="500">
 
-You can find the paper _Generating Scenarios with Diverse Pedestrian Behaviors for Autonomous Vehicle Testing_ [here](https://openreview.net/forum?id=HTfApPeT4DZ) and a [a short video presentation](https://youtu.be/Wpa4P0X17MI). The CoRL 2021 poster can be seen below.
+You can find the paper _Generating Scenarios with Diverse Pedestrian Behaviors for Autonomous Vehicle Testing_ [here](https://openreview.net/forum?id=HTfApPeT4DZ) and a [a short video presentation](https://youtu.be/IMLC6njod3E). The CoRL 2021 poster can be seen below.
 
 **Authors:** [Maria Priisalu](http://www.maths.lth.se/sminchisescu/research/profile/7/maria-priisalu), [Aleksis Pirinen](https://www.ri.se/en/person/aleksis-pirinen), [Ciprian Paduraru](https://scholar.google.com/citations?user=EaAekU4AAAAJ&hl=en) and [Cristian Sminchisescu](http://www.maths.lth.se/sminchisescu/)
 ![poster](https://github.com/MariaPriisalu/spl/blob/master/Corl-poster-final.png?raw=true)
