@@ -104,6 +104,7 @@ In CARLA 0.8.2 or 0.9.4 you can gather the equivalent dataset with the scripts i
 
 ## Cityscapes
 To create the Cityscapes dataset you need to have downloaded the cityscapes dataset, and you need to attain the semantic segmentation and bounding boxes of each image. After this the scripts in colmap can be used to create 3d reconstructions of the dataset.  
+The adapted colmap (that use semantic segmentation as well as RGB) can be found [here](https://github.com/MariaPriisalu/colmap)
 
 ## Waymo dataset
 Please check the documentation of the fork here to understand how to use the pipeline to get out the dataset needed for training/visualization [here](https://github.com/AGAPIA/waymo-open-dataset). Also it currently depends on the segmentation from [here](https://github.com/AGAPIA/semantic-segmentation-pytorch)
