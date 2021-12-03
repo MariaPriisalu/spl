@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfeature.a  CMakeFiles/feature.dir/extraction.cc.o CMakeFiles/feature.dir/matching.cc.o CMakeFiles/feature.dir/sift.cc.o CMakeFiles/feature.dir/types.cc.o CMakeFiles/feature.dir/utils.cc.o
+/usr/bin/ranlib libfeature.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsfm.a  CMakeFiles/sfm.dir/incremental_mapper.cc.o CMakeFiles/sfm.dir/incremental_triangulator.cc.o
+/usr/bin/ranlib libsfm.a

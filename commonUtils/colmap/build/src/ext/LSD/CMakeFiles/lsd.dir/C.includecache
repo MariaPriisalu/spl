@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mariap/Packages/colmap/colmap/src/ext/LSD/lsd.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+limits.h
+-
+float.h
+-
+lsd.h
+/home/mariap/Packages/colmap/colmap/src/ext/LSD/lsd.h
+
+/home/mariap/Packages/colmap/colmap/src/ext/LSD/lsd.h
+

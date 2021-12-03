@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcontrollers.a  CMakeFiles/controllers.dir/automatic_reconstruction.cc.o CMakeFiles/controllers.dir/bundle_adjustment.cc.o CMakeFiles/controllers.dir/hierarchical_mapper.cc.o CMakeFiles/controllers.dir/incremental_mapper.cc.o
+/usr/bin/ranlib libcontrollers.a

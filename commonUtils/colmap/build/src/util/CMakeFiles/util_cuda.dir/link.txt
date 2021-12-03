@@ -1,0 +1,2 @@
+/usr/bin/ar qc libutil_cuda.a  CMakeFiles/util_cuda.dir/cuda.cc.o CMakeFiles/util_cuda.dir/cudacc.cc.o
+/usr/bin/ranlib libutil_cuda.a

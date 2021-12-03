@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <code-assistance-data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <code-model-enabled>true</code-model-enabled>
+    </code-assistance-data>
+    <data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <activeConfTypeElem>0</activeConfTypeElem>
+        <activeConfIndexElem>0</activeConfIndexElem>
+    </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/mariap/Packages/colmap/colmap/src/base/image.h</file>
+            <file>file:/home/mariap/Packages/colmap/colmap/src/base/camera_test.cc</file>
+            <file>file:/home/mariap/Packages/colmap/colmap/src/base/camera_models.h</file>
+            <file>file:/home/mariap/Packages/colmap/colmap/src/mvs/fusion.cc</file>
+            <file>file:/home/mariap/Packages/colmap/colmap/src/base/essential_matrix.cc</file>
+            <file>file:/home/mariap/Packages/colmap/colmap/src/base/camera.h</file>
+            <file>file:/home/mariap/Packages/colmap/colmap/src/base/camera_rig_test.cc</file>
+            <file>file:/home/mariap/Packages/colmap/colmap/src/base/camera_models_test.cc</file>
+            <file>file:/home/mariap/Packages/colmap/colmap/src/base/reconstruction.h</file>
+            <file>file:/home/mariap/Packages/colmap/colmap/src/base/database_test.cc</file>
+            <file>file:/home/mariap/Packages/colmap/colmap/src/base/camera_models.cc</file>
+            <file>file:/home/mariap/Packages/colmap/colmap/src/base/camera_rig.cc</file>
+            <file>file:/home/mariap/Packages/colmap/colmap/src/base/camera.cc</file>
+            <file>file:/home/mariap/Packages/colmap/colmap/src/base/camera_rig.h</file>
+            <file>file:/home/mariap/Packages/colmap/colmap/src/exe/colmap.cc</file>
+        </group>
+    </open-files>
+</project-private>

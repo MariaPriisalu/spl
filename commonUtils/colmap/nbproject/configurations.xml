@@ -1,0 +1,1310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="build">
+        <df name="CMakeFiles">
+          <df name="3.5.1">
+            <df name="CompilerIdC">
+              <in>CMakeCCompilerId.c</in>
+            </df>
+            <df name="CompilerIdCXX">
+              <in>CMakeCXXCompilerId.cpp</in>
+            </df>
+          </df>
+          <in>feature_tests.c</in>
+          <in>feature_tests.cxx</in>
+        </df>
+        <df name="src">
+          <df name="ui">
+            <in>qrc_resources.cpp</in>
+          </df>
+        </df>
+        <in>detect_cuda_compute_capabilities.cpp</in>
+      </df>
+      <df name="scripts">
+        <df name="matlab">
+          <in>cmap2rgb.m</in>
+          <in>plot_model.m</in>
+          <in>quat2rotmat.m</in>
+          <in>read_array.m</in>
+          <in>read_depth_map.m</in>
+          <in>read_model.m</in>
+          <in>read_normal_map.m</in>
+          <in>read_ply.m</in>
+          <in>write_array.m</in>
+          <in>write_ply.m</in>
+        </df>
+      </df>
+      <df name="src">
+        <df name="base">
+          <in>camera.cc</in>
+          <in>camera_database.cc</in>
+          <in>camera_database_test.cc</in>
+          <in>camera_models.cc</in>
+          <in>camera_models_test.cc</in>
+          <in>camera_rig.cc</in>
+          <in>camera_rig_test.cc</in>
+          <in>camera_test.cc</in>
+          <in>cost_functions_test.cc</in>
+          <in>database.cc</in>
+          <in>database_cache.cc</in>
+          <in>database_cache_test.cc</in>
+          <in>database_test.cc</in>
+          <in>essential_matrix.cc</in>
+          <in>essential_matrix_test.cc</in>
+          <in>gps.cc</in>
+          <in>gps_test.cc</in>
+          <in>graph_cut.cc</in>
+          <in>graph_cut_test.cc</in>
+          <in>homography_matrix.cc</in>
+          <in>homography_matrix_test.cc</in>
+          <in>image.cc</in>
+          <in>image_reader.cc</in>
+          <in>image_test.cc</in>
+          <in>line.cc</in>
+          <in>line_test.cc</in>
+          <in>point2d.cc</in>
+          <in>point2d_test.cc</in>
+          <in>point3d.cc</in>
+          <in>point3d_test.cc</in>
+          <in>polynomial.cc</in>
+          <in>polynomial_test.cc</in>
+          <in>pose.cc</in>
+          <in>pose_test.cc</in>
+          <in>projection.cc</in>
+          <in>projection_test.cc</in>
+          <in>reconstruction.cc</in>
+          <in>reconstruction_manager.cc</in>
+          <in>reconstruction_manager_test.cc</in>
+          <in>reconstruction_test.cc</in>
+          <in>scene_clustering.cc</in>
+          <in>scene_clustering_test.cc</in>
+          <in>scene_graph.cc</in>
+          <in>scene_graph_test.cc</in>
+          <in>similarity_transform.cc</in>
+          <in>similarity_transform_test.cc</in>
+          <in>track.cc</in>
+          <in>track_test.cc</in>
+          <in>triangulation.cc</in>
+          <in>triangulation_test.cc</in>
+          <in>undistortion.cc</in>
+          <in>undistortion_test.cc</in>
+          <in>visibility_pyramid.cc</in>
+          <in>visibility_pyramid_test.cc</in>
+          <in>warp.cc</in>
+          <in>warp_test.cc</in>
+        </df>
+        <df name="controllers">
+          <in>automatic_reconstruction.cc</in>
+          <in>bundle_adjustment.cc</in>
+          <in>hierarchical_mapper.cc</in>
+          <in>incremental_mapper.cc</in>
+        </df>
+        <df name="estimators">
+          <in>absolute_pose.cc</in>
+          <in>absolute_pose_test.cc</in>
+          <in>affine_transform.cc</in>
+          <in>affine_transform_test.cc</in>
+          <in>coordinate_frame.cc</in>
+          <in>coordinate_frame_test.cc</in>
+          <in>essential_matrix.cc</in>
+          <in>essential_matrix_test.cc</in>
+          <in>fundamental_matrix.cc</in>
+          <in>fundamental_matrix_test.cc</in>
+          <in>generalized_absolute_pose.cc</in>
+          <in>generalized_absolute_pose_coeffs.cc</in>
+          <in>generalized_absolute_pose_test.cc</in>
+          <in>generalized_relative_pose.cc</in>
+          <in>generalized_relative_pose_test.cc</in>
+          <in>homography_matrix.cc</in>
+          <in>homography_matrix_test.cc</in>
+          <in>pose.cc</in>
+          <in>translation_transform_test.cc</in>
+          <in>triangulation.cc</in>
+          <in>two_view_geometry.cc</in>
+          <in>utils.cc</in>
+          <in>utils_test.cc</in>
+        </df>
+        <df name="exe">
+          <in>colmap.cc</in>
+        </df>
+        <df name="ext">
+          <df name="FLANN">
+            <df name="ext">
+              <in>lz4.c</in>
+              <in>lz4hc.c</in>
+            </df>
+            <df name="mpi">
+              <in>flann_mpi_client.cpp</in>
+              <in>flann_mpi_server.cpp</in>
+            </df>
+            <in>flann.cpp</in>
+          </df>
+          <df name="Graclus">
+            <df name="metisLib">
+              <in>balance.c</in>
+              <in>bucketsort.c</in>
+              <in>ccgraph.c</in>
+              <in>coarsen.c</in>
+              <in>compress.c</in>
+              <in>debug.c</in>
+              <in>estmem.c</in>
+              <in>fm.c</in>
+              <in>fortran.c</in>
+              <in>frename.c</in>
+              <in>graph.c</in>
+              <in>initpart.c</in>
+              <in>kmetis.c</in>
+              <in>kvmetis.c</in>
+              <in>kwayfm.c</in>
+              <in>kwayrefine.c</in>
+              <in>kwayvolfm.c</in>
+              <in>kwayvolrefine.c</in>
+              <in>match.c</in>
+              <in>mbalance.c</in>
+              <in>mbalance2.c</in>
+              <in>mcoarsen.c</in>
+              <in>memory.c</in>
+              <in>mesh.c</in>
+              <in>meshpart.c</in>
+              <in>metis.c</in>
+              <in>mfm.c</in>
+              <in>mfm2.c</in>
+              <in>mincover.c</in>
+              <in>minitpart.c</in>
+              <in>minitpart2.c</in>
+              <in>mkmetis.c</in>
+              <in>mkwayfmh.c</in>
+              <in>mkwayrefine.c</in>
+              <in>mmatch.c</in>
+              <in>mmd.c</in>
+              <in>mpmetis.c</in>
+              <in>mrefine.c</in>
+              <in>mrefine2.c</in>
+              <in>mutil.c</in>
+              <in>myqsort.c</in>
+              <in>ometis.c</in>
+              <in>parmetis.c</in>
+              <in>pmetis.c</in>
+              <in>pqueue.c</in>
+              <in>refine.c</in>
+              <in>separator.c</in>
+              <in>sfm.c</in>
+              <in>srefine.c</in>
+              <in>stat.c</in>
+              <in>subdomains.c</in>
+              <in>timing.c</in>
+              <in>util.c</in>
+            </df>
+            <df name="multilevelLib">
+              <in>mlkkm.c</in>
+              <in>wkkm.c</in>
+              <in>wkkm_boundary_only.c</in>
+              <in>wkkm_experiment.c</in>
+              <in>wkkm_old.c</in>
+            </df>
+          </df>
+          <df name="LSD">
+            <in>lsd.c</in>
+          </df>
+          <df name="PBA">
+            <in>ConfigBA.cpp</in>
+            <in>CuTexImage.cpp</in>
+            <in>SparseBundleCPU.cpp</in>
+            <in>SparseBundleCU.cpp</in>
+            <in>pba.cpp</in>
+          </df>
+          <df name="PoissonRecon">
+            <in>CmdLineParser.cpp</in>
+            <in>Factor.cpp</in>
+            <in>Geometry.cpp</in>
+            <in>MarchingCubes.cpp</in>
+            <in>PlyFile.cpp</in>
+            <in>PoissonRecon.cpp</in>
+            <in>SurfaceTrimmer.cpp</in>
+          </df>
+          <df name="SiftGPU">
+            <in>CLTexImage.cpp</in>
+            <in>CuTexImage.cpp</in>
+            <in>FrameBufferObject.cpp</in>
+            <in>GLTexImage.cpp</in>
+            <in>GlobalUtil.cpp</in>
+            <in>ProgramCG.cpp</in>
+            <in>ProgramCL.cpp</in>
+            <in>ProgramGLSL.cpp</in>
+            <in>PyramidCL.cpp</in>
+            <in>PyramidCU.cpp</in>
+            <in>PyramidGL.cpp</in>
+            <in>ShaderMan.cpp</in>
+            <in>SiftGPU.cpp</in>
+            <in>SiftMatch.cpp</in>
+            <in>SiftMatchCU.cpp</in>
+            <in>SiftPyramid.cpp</in>
+          </df>
+          <df name="SQLite">
+            <in>shell.c</in>
+            <in>sqlite3.c</in>
+          </df>
+          <df name="VLFeat">
+            <in>aib.c</in>
+            <in>array.c</in>
+            <in>covdet.c</in>
+            <in>dsift.c</in>
+            <in>fisher.c</in>
+            <in>generic.c</in>
+            <in>getopt_long.c</in>
+            <in>gmm.c</in>
+            <in>hikmeans.c</in>
+            <in>hog.c</in>
+            <in>homkermap.c</in>
+            <in>host.c</in>
+            <in>ikmeans.c</in>
+            <in>imopv.c</in>
+            <in>imopv_sse2.c</in>
+            <in>kdtree.c</in>
+            <in>kmeans.c</in>
+            <in>lbp.c</in>
+            <in>liop.c</in>
+            <in>mathop.c</in>
+            <in>mathop_avx.c</in>
+            <in>mathop_sse2.c</in>
+            <in>mser.c</in>
+            <in>pgm.c</in>
+            <in>quickshift.c</in>
+            <in>random.c</in>
+            <in>rodrigues.c</in>
+            <in>scalespace.c</in>
+            <in>sift.c</in>
+            <in>slic.c</in>
+            <in>stringop.c</in>
+            <in>svm.c</in>
+            <in>svmdataset.c</in>
+            <in>vlad.c</in>
+          </df>
+        </df>
+        <df name="feature">
+          <in>extraction.cc</in>
+          <in>feature.cc</in>
+          <in>matching.cc</in>
+          <in>sift.cc</in>
+          <in>sift_test.cc</in>
+          <in>types.cc</in>
+          <in>types_test.cc</in>
+          <in>utils.cc</in>
+          <in>utils_test.cc</in>
+        </df>
+        <df name="mvs">
+          <in>consistency_graph.cc</in>
+          <in>consistency_graph_test.cc</in>
+          <in>depth_map.cc</in>
+          <in>depth_map_test.cc</in>
+          <in>fusion.cc</in>
+          <in>image.cc</in>
+          <in>mat_test.cc</in>
+          <in>meshing.cc</in>
+          <in>model.cc</in>
+          <in>normal_map.cc</in>
+          <in>normal_map_test.cc</in>
+          <in>patch_match.cc</in>
+          <in>segmentation.cpp</in>
+          <in>segmentation.h</in>
+          <in>workspace.cc</in>
+        </df>
+        <df name="optim">
+          <in>bundle_adjustment.cc</in>
+          <in>bundle_adjustment_test.cc</in>
+          <in>combination_sampler.cc</in>
+          <in>combination_sampler_test.cc</in>
+          <in>least_absolute_deviations.cc</in>
+          <in>least_absolute_deviations_test.cc</in>
+          <in>loransac_test.cc</in>
+          <in>progressive_sampler.cc</in>
+          <in>progressive_sampler_test.cc</in>
+          <in>random_sampler.cc</in>
+          <in>random_sampler_test.cc</in>
+          <in>ransac_test.cc</in>
+          <in>sprt.cc</in>
+          <in>support_measurement.cc</in>
+          <in>support_measurement_test.cc</in>
+        </df>
+        <df name="retrieval">
+          <in>geometry.cc</in>
+          <in>geometry_test.cc</in>
+          <in>inverted_file_entry_test.cc</in>
+          <in>visual_index_test.cc</in>
+          <in>vote_and_verify.cc</in>
+        </df>
+        <df name="sfm">
+          <in>incremental_mapper.cc</in>
+          <in>incremental_triangulator.cc</in>
+        </df>
+        <df name="tools">
+          <in>example.cc</in>
+        </df>
+        <df name="ui">
+          <in>automatic_reconstruction_widget.cc</in>
+          <in>bundle_adjustment_widget.cc</in>
+          <in>colormaps.cc</in>
+          <in>database_management_widget.cc</in>
+          <in>dense_reconstruction_widget.cc</in>
+          <in>feature_extraction_widget.cc</in>
+          <in>feature_matching_widget.cc</in>
+          <in>image_viewer_widget.cc</in>
+          <in>license_widget.cc</in>
+          <in>line_painter.cc</in>
+          <in>log_widget.cc</in>
+          <in>main_window.cc</in>
+          <in>match_matrix_widget.cc</in>
+          <in>model_viewer_widget.cc</in>
+          <in>movie_grabber_widget.cc</in>
+          <in>options_widget.cc</in>
+          <in>point_painter.cc</in>
+          <in>point_viewer_widget.cc</in>
+          <in>project_widget.cc</in>
+          <in>qt_utils.cc</in>
+          <in>reconstruction_manager_widget.cc</in>
+          <in>reconstruction_options_widget.cc</in>
+          <in>reconstruction_stats_widget.cc</in>
+          <in>render_options.cc</in>
+          <in>render_options_widget.cc</in>
+          <in>thread_control_widget.cc</in>
+          <in>triangle_painter.cc</in>
+          <in>undistortion_widget.cc</in>
+        </df>
+        <df name="util">
+          <in>bitmap.cc</in>
+          <in>bitmap_test.cc</in>
+          <in>cache_test.cc</in>
+          <in>camera_specs.cc</in>
+          <in>cuda.cc</in>
+          <in>cudacc.cc</in>
+          <in>endian_test.cc</in>
+          <in>logging.cc</in>
+          <in>math.cc</in>
+          <in>math_test.cc</in>
+          <in>matrix_test.cc</in>
+          <in>misc.cc</in>
+          <in>misc_test.cc</in>
+          <in>opengl_utils.cc</in>
+          <in>opengl_utils_test.cc</in>
+          <in>option_manager.cc</in>
+          <in>random.cc</in>
+          <in>random_test.cc</in>
+          <in>string.cc</in>
+          <in>string_test.cc</in>
+          <in>threading.cc</in>
+          <in>threading_test.cc</in>
+          <in>timer.cc</in>
+          <in>timer_test.cc</in>
+          <in>version.cc</in>
+        </df>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>CMakeLists.txt</itemPath>
+      <itemPath>build/Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>build/Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>build</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>build</preBuildCommandWorkingDir>
+          <preBuildCommand>${CMAKE} -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=${IDE_CC} -DCMAKE_CXX_COMPILER=${IDE_CXX} -DCMAKE_C_FLAGS_DEBUG="-g3 -gdwarf-2" -DCMAKE_CXX_FLAGS_DEBUG="-g3 -gdwarf-2" -DCMAKE_EXPORT_COMPILE_COMMANDS=ON ..</preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="build/CMakeFiles/feature_tests.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="build/CMakeFiles/feature_tests.cxx" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="build/detect_cuda_compute_capabilities.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="build/src/ui/qrc_resources.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="scripts/matlab/cmap2rgb.m" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="scripts/matlab/plot_model.m" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="scripts/matlab/quat2rotmat.m" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="scripts/matlab/read_array.m" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="scripts/matlab/read_depth_map.m" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="scripts/matlab/read_model.m" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="scripts/matlab/read_normal_map.m" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="scripts/matlab/read_ply.m" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="scripts/matlab/write_array.m" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="scripts/matlab/write_ply.m" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/base/camera.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/camera_database.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/camera_database_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/camera_models.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/camera_models_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/camera_rig.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/camera_rig_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/camera_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/cost_functions_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/database.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/database_cache.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/database_cache_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/database_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/essential_matrix.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/essential_matrix_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/gps.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/gps_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/graph_cut.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/graph_cut_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/homography_matrix.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/homography_matrix_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/image.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/image_reader.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/image_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/line.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/line_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/point2d.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/point2d_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/point3d.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/point3d_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/polynomial.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/polynomial_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/pose.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/pose_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/projection.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/projection_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/reconstruction.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/reconstruction_manager.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/reconstruction_manager_test.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/base/reconstruction_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/scene_clustering.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/scene_clustering_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/scene_graph.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/scene_graph_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/similarity_transform.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/similarity_transform_test.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/base/track.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/track_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/triangulation.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/triangulation_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/undistortion.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/undistortion_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/visibility_pyramid.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/visibility_pyramid_test.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/base/warp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/base/warp_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/controllers/automatic_reconstruction.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/controllers/bundle_adjustment.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/controllers/hierarchical_mapper.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/controllers/incremental_mapper.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/estimators/absolute_pose.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/estimators/absolute_pose_test.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/estimators/affine_transform.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/estimators/affine_transform_test.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/estimators/coordinate_frame.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/estimators/coordinate_frame_test.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/estimators/essential_matrix.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/estimators/essential_matrix_test.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/estimators/fundamental_matrix.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/estimators/fundamental_matrix_test.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/estimators/generalized_absolute_pose.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/estimators/generalized_absolute_pose_coeffs.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/estimators/generalized_absolute_pose_test.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/estimators/generalized_relative_pose.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/estimators/generalized_relative_pose_test.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/estimators/homography_matrix.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/estimators/homography_matrix_test.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/estimators/pose.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/estimators/translation_transform_test.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/estimators/triangulation.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/estimators/two_view_geometry.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/estimators/utils.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/estimators/utils_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/exe/colmap.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ext/FLANN/ext/lz4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/FLANN/ext/lz4hc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/FLANN/flann.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ext/FLANN/mpi/flann_mpi_client.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ext/FLANN/mpi/flann_mpi_server.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/balance.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/bucketsort.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/ccgraph.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/coarsen.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/compress.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/debug.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/estmem.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/fm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/fortran.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/frename.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/graph.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/initpart.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/kmetis.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/kvmetis.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/kwayfm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/kwayrefine.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/kwayvolfm.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/kwayvolrefine.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/match.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/mbalance.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/mbalance2.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/mcoarsen.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/memory.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/mesh.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/meshpart.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/metis.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/mfm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/mfm2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/mincover.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/minitpart.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/minitpart2.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/mkmetis.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/mkwayfmh.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/mkwayrefine.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/mmatch.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/mmd.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/mpmetis.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/mrefine.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/mrefine2.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/mutil.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/myqsort.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/ometis.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/parmetis.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/pmetis.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/pqueue.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/refine.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/separator.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/sfm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/srefine.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/stat.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/subdomains.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/timing.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/metisLib/util.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/multilevelLib/mlkkm.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/multilevelLib/wkkm.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/multilevelLib/wkkm_boundary_only.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/multilevelLib/wkkm_experiment.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/ext/Graclus/multilevelLib/wkkm_old.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/ext/LSD/lsd.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/PBA/ConfigBA.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ext/PBA/CuTexImage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ext/PBA/SparseBundleCPU.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ext/PBA/SparseBundleCU.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ext/PBA/pba.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ext/PoissonRecon/CmdLineParser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ext/PoissonRecon/Factor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ext/PoissonRecon/Geometry.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ext/PoissonRecon/MarchingCubes.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ext/PoissonRecon/PlyFile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ext/PoissonRecon/PoissonRecon.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ext/PoissonRecon/SurfaceTrimmer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ext/SQLite/shell.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/SQLite/sqlite3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/SiftGPU/CLTexImage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ext/SiftGPU/CuTexImage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ext/SiftGPU/FrameBufferObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ext/SiftGPU/GLTexImage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ext/SiftGPU/GlobalUtil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ext/SiftGPU/ProgramCG.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ext/SiftGPU/ProgramCL.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ext/SiftGPU/ProgramGLSL.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ext/SiftGPU/PyramidCL.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ext/SiftGPU/PyramidCU.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ext/SiftGPU/PyramidGL.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ext/SiftGPU/ShaderMan.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ext/SiftGPU/SiftGPU.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ext/SiftGPU/SiftMatch.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ext/SiftGPU/SiftMatchCU.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ext/SiftGPU/SiftPyramid.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/aib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/array.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/covdet.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/dsift.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/fisher.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/generic.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/getopt_long.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/gmm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/hikmeans.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/hog.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/homkermap.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/host.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/ikmeans.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/imopv.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/imopv_sse2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/kdtree.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/kmeans.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/lbp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/liop.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/mathop.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/mathop_avx.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/mathop_sse2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/mser.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/pgm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/quickshift.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/random.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/rodrigues.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/scalespace.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/sift.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/slic.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/stringop.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/svm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/svmdataset.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/ext/VLFeat/vlad.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/feature/extraction.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/feature/feature.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/feature/matching.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/feature/sift.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/feature/sift_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/feature/types.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/feature/types_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/feature/utils.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/feature/utils_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/mvs/consistency_graph.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/mvs/consistency_graph_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/mvs/depth_map.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/mvs/depth_map_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/mvs/fusion.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/mvs/image.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/mvs/mat_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/mvs/meshing.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/mvs/model.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/mvs/normal_map.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/mvs/normal_map_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/mvs/patch_match.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/mvs/segmentation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/mvs/segmentation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/mvs/workspace.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/optim/bundle_adjustment.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/optim/bundle_adjustment_test.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/optim/combination_sampler.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/optim/combination_sampler_test.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/optim/least_absolute_deviations.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/optim/least_absolute_deviations_test.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/optim/loransac_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/optim/progressive_sampler.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/optim/progressive_sampler_test.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/optim/random_sampler.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/optim/random_sampler_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/optim/ransac_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/optim/sprt.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/optim/support_measurement.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/optim/support_measurement_test.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/retrieval/geometry.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/retrieval/geometry_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/retrieval/inverted_file_entry_test.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/retrieval/visual_index_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/retrieval/vote_and_verify.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sfm/incremental_mapper.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sfm/incremental_triangulator.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/tools/example.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ui/automatic_reconstruction_widget.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ui/bundle_adjustment_widget.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ui/colormaps.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ui/database_management_widget.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ui/dense_reconstruction_widget.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ui/feature_extraction_widget.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ui/feature_matching_widget.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ui/image_viewer_widget.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ui/license_widget.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ui/line_painter.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ui/log_widget.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ui/main_window.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ui/match_matrix_widget.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ui/model_viewer_widget.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ui/movie_grabber_widget.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ui/options_widget.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ui/point_painter.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ui/point_viewer_widget.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ui/project_widget.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ui/qt_utils.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ui/reconstruction_manager_widget.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ui/reconstruction_options_widget.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ui/reconstruction_stats_widget.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/ui/render_options.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ui/render_options_widget.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ui/thread_control_widget.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ui/triangle_painter.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ui/undistortion_widget.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/util/bitmap.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/util/bitmap_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/util/cache_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/util/camera_specs.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/util/cuda.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/util/cudacc.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/util/endian_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/util/logging.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/util/math.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/util/math_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/util/matrix_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/util/misc.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/util/misc_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/util/opengl_utils.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/util/opengl_utils_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/util/option_manager.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/util/random.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/util/random_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/util/string.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/util/string_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/util/threading.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/util/threading_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/util/timer.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/util/timer_test.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/util/version.cc" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

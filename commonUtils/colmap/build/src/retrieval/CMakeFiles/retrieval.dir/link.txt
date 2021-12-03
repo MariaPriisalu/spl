@@ -1,0 +1,2 @@
+/usr/bin/ar qc libretrieval.a  CMakeFiles/retrieval.dir/geometry.cc.o CMakeFiles/retrieval.dir/vote_and_verify.cc.o
+/usr/bin/ranlib libretrieval.a

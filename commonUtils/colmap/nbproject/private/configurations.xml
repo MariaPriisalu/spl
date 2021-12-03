@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name=".idea">
+      </df>
+      <df name="build">
+        <df name="CMakeFiles">
+          <df name="3.5.1">
+            <df name="CompilerIdC">
+              <in>CMakeCCompilerId.c</in>
+            </df>
+            <df name="CompilerIdCXX">
+              <in>CMakeCXXCompilerId.cpp</in>
+            </df>
+          </df>
+          <df name="CMakeTmp">
+          </df>
+          <df name="uninstall.dir">
+          </df>
+          <in>feature_tests.c</in>
+          <in>feature_tests.cxx</in>
+        </df>
+        <df name="src">
+          <df name="base">
+            <df name="CMakeFiles">
+              <df name="base.dir">
+              </df>
+            </df>
+          </df>
+          <df name="CMakeFiles">
+            <df name="colmap_src.dir">
+              <df name="base">
+              </df>
+              <df name="controllers">
+              </df>
+              <df name="estimators">
+              </df>
+              <df name="exe">
+              </df>
+              <df name="ext">
+                <df name="FLANN">
+                </df>
+                <df name="LSD">
+                </df>
+                <df name="PBA">
+                </df>
+                <df name="PoissonRecon">
+                </df>
+                <df name="SiftGPU">
+                </df>
+                <df name="SQLite">
+                </df>
+                <df name="VLFeat">
+                </df>
+              </df>
+              <df name="feature">
+              </df>
+              <df name="mvs">
+              </df>
+              <df name="optim">
+              </df>
+              <df name="retrieval">
+              </df>
+              <df name="sfm">
+              </df>
+              <df name="tools">
+              </df>
+              <df name="ui">
+              </df>
+              <df name="util">
+              </df>
+            </df>
+          </df>
+          <df name="controllers">
+            <df name="CMakeFiles">
+              <df name="controllers.dir">
+              </df>
+            </df>
+          </df>
+          <df name="estimators">
+            <df name="CMakeFiles">
+              <df name="estimators.dir">
+              </df>
+            </df>
+          </df>
+          <df name="exe">
+            <df name="CMakeFiles">
+              <df name="colmap.dir">
+              </df>
+            </df>
+          </df>
+          <df name="ext">
+            <df name="CMakeFiles">
+            </df>
+            <df name="FLANN">
+              <df name="CMakeFiles">
+                <df name="flann.dir">
+                  <df name="ext">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="Graclus">
+              <df name="CMakeFiles">
+                <df name="graclus.dir">
+                  <df name="metisLib">
+                  </df>
+                  <df name="multilevelLib">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="LSD">
+              <df name="CMakeFiles">
+                <df name="lsd.dir">
+                </df>
+              </df>
+            </df>
+            <df name="PBA">
+              <df name="CMakeFiles">
+                <df name="pba.dir">
+                </df>
+              </df>
+            </df>
+            <df name="PoissonRecon">
+              <df name="CMakeFiles">
+                <df name="poisson_recon.dir">
+                </df>
+              </df>
+            </df>
+            <df name="SiftGPU">
+              <df name="CMakeFiles">
+                <df name="sift_gpu.dir">
+                </df>
+              </df>
+            </df>
+            <df name="SQLite">
+              <df name="CMakeFiles">
+                <df name="sqlite3.dir">
+                </df>
+              </df>
+            </df>
+            <df name="VLFeat">
+              <df name="CMakeFiles">
+                <df name="vlfeat.dir">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="feature">
+            <df name="CMakeFiles">
+              <df name="feature.dir">
+              </df>
+            </df>
+          </df>
+          <df name="mvs">
+            <df name="CMakeFiles">
+              <df name="mvs.dir">
+              </df>
+              <df name="mvs_cuda.dir">
+              </df>
+            </df>
+          </df>
+          <df name="optim">
+            <df name="CMakeFiles">
+              <df name="optim.dir">
+              </df>
+            </df>
+          </df>
+          <df name="retrieval">
+            <df name="CMakeFiles">
+              <df name="retrieval.dir">
+              </df>
+            </df>
+          </df>
+          <df name="sfm">
+            <df name="CMakeFiles">
+              <df name="sfm.dir">
+              </df>
+            </df>
+          </df>
+          <df name="tools">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="ui">
+            <df name="CMakeFiles">
+              <df name="ui.dir">
+              </df>
+            </df>
+            <in>qrc_resources.cpp</in>
+          </df>
+          <df name="util">
+            <df name="CMakeFiles">
+              <df name="util.dir">
+              </df>
+              <df name="util_cuda.dir">
+              </df>
+            </df>
+          </df>
+        </df>
+        <in>detect_cuda_compute_capabilities.cpp</in>
+      </df>
+      <df name="cmake">
+      </df>
+      <df name="doc">
+        <df name="_build">
+          <df name="html">
+          </df>
+        </df>
+        <df name="images">
+        </df>
+      </df>
+      <df name="scripts">
+        <df name="matlab">
+          <in>cmap2rgb.m</in>
+          <in>plot_model.m</in>
+          <in>quat2rotmat.m</in>
+          <in>read_array.m</in>
+          <in>read_depth_map.m</in>
+          <in>read_model.m</in>
+          <in>read_normal_map.m</in>
+          <in>read_ply.m</in>
+          <in>write_array.m</in>
+          <in>write_ply.m</in>
+        </df>
+        <df name="python">
+          <df name=".idea">
+          </df>
+        </df>
+        <df name="shell">
+        </df>
+      </df>
+      <df name="src">
+        <df name="base">
+          <in>camera.cc</in>
+          <in>camera.h</in>
+          <in>camera_database.cc</in>
+          <in>camera_database.h</in>
+          <in>camera_database_test.cc</in>
+          <in>camera_models.cc</in>
+          <in>camera_models.h</in>
+          <in>camera_models_test.cc</in>
+          <in>camera_rig.cc</in>
+          <in>camera_rig.h</in>
+          <in>camera_rig_test.cc</in>
+          <in>camera_test.cc</in>
+          <in>cost_functions.h</in>
+          <in>cost_functions_test.cc</in>
+          <in>database.cc</in>
+          <in>database.h</in>
+          <in>database_cache.cc</in>
+          <in>database_cache.h</in>
+          <in>database_cache_test.cc</in>
+          <in>database_test.cc</in>
+          <in>essential_matrix.cc</in>
+          <in>essential_matrix.h</in>
+          <in>essential_matrix_test.cc</in>
+          <in>gps.cc</in>
+          <in>gps.h</in>
+          <in>gps_test.cc</in>
+          <in>graph_cut.cc</in>
+          <in>graph_cut.h</in>
+          <in>graph_cut_test.cc</in>
+          <in>homography_matrix.cc</in>
+          <in>homography_matrix.h</in>
+          <in>homography_matrix_test.cc</in>
+          <in>image.cc</in>
+          <in>image.h</in>
+          <in>image_reader.cc</in>
+          <in>image_reader.h</in>
+          <in>image_test.cc</in>
+          <in>line.cc</in>
+          <in>line.h</in>
+          <in>line_test.cc</in>
+          <in>point2d.cc</in>
+          <in>point2d.h</in>
+          <in>point2d_test.cc</in>
+          <in>point3d.cc</in>
+          <in>point3d.h</in>
+          <in>point3d_test.cc</in>
+          <in>polynomial.cc</in>
+          <in>polynomial.h</in>
+          <in>polynomial_test.cc</in>
+          <in>pose.cc</in>
+          <in>pose.h</in>
+          <in>pose_test.cc</in>
+          <in>projection.cc</in>
+          <in>projection.h</in>
+          <in>projection_test.cc</in>
+          <in>reconstruction.cc</in>
+          <in>reconstruction.h</in>
+          <in>reconstruction_manager.cc</in>
+          <in>reconstruction_manager.h</in>
+          <in>reconstruction_manager_test.cc</in>
+          <in>reconstruction_test.cc</in>
+          <in>scene_clustering.cc</in>
+          <in>scene_clustering.h</in>
+          <in>scene_clustering_test.cc</in>
+          <in>scene_graph.cc</in>
+          <in>scene_graph.h</in>
+          <in>scene_graph_test.cc</in>
+          <in>similarity_transform.cc</in>
+          <in>similarity_transform.h</in>
+          <in>similarity_transform_test.cc</in>
+          <in>track.cc</in>
+          <in>track.h</in>
+          <in>track_test.cc</in>
+          <in>triangulation.cc</in>
+          <in>triangulation.h</in>
+          <in>triangulation_test.cc</in>
+          <in>undistortion.cc</in>
+          <in>undistortion.h</in>
+          <in>undistortion_test.cc</in>
+          <in>visibility_pyramid.cc</in>
+          <in>visibility_pyramid.h</in>
+          <in>visibility_pyramid_test.cc</in>
+          <in>warp.cc</in>
+          <in>warp.h</in>
+          <in>warp_test.cc</in>
+        </df>
+        <df name="controllers">
+          <in>automatic_reconstruction.cc</in>
+          <in>automatic_reconstruction.h</in>
+          <in>bundle_adjustment.cc</in>
+          <in>bundle_adjustment.h</in>
+          <in>hierarchical_mapper.cc</in>
+          <in>hierarchical_mapper.h</in>
+          <in>incremental_mapper.cc</in>
+          <in>incremental_mapper.h</in>
+        </df>
+        <df name="estimators">
+          <in>absolute_pose.cc</in>
+          <in>absolute_pose.h</in>
+          <in>absolute_pose_test.cc</in>
+          <in>affine_transform.cc</in>
+          <in>affine_transform.h</in>
+          <in>affine_transform_test.cc</in>
+          <in>coordinate_frame.cc</in>
+          <in>coordinate_frame.h</in>
+          <in>coordinate_frame_test.cc</in>
+          <in>essential_matrix.cc</in>
+          <in>essential_matrix.h</in>
+          <in>essential_matrix_coeffs.h</in>
+          <in>essential_matrix_poly.h</in>
+          <in>essential_matrix_test.cc</in>
+          <in>euclidean_transform.h</in>
+          <in>fundamental_matrix.cc</in>
+          <in>fundamental_matrix.h</in>
+          <in>fundamental_matrix_test.cc</in>
+          <in>generalized_absolute_pose.cc</in>
+          <in>generalized_absolute_pose.h</in>
+          <in>generalized_absolute_pose_coeffs.cc</in>
+          <in>generalized_absolute_pose_coeffs.h</in>
+          <in>generalized_absolute_pose_test.cc</in>
+          <in>generalized_relative_pose.cc</in>
+          <in>generalized_relative_pose.h</in>
+          <in>generalized_relative_pose_test.cc</in>
+          <in>homography_matrix.cc</in>
+          <in>homography_matrix.h</in>
+          <in>homography_matrix_test.cc</in>
+          <in>pose.cc</in>
+          <in>pose.h</in>
+          <in>similarity_transform.h</in>
+          <in>translation_transform.h</in>
+          <in>translation_transform_test.cc</in>
+          <in>triangulation.cc</in>
+          <in>triangulation.h</in>
+          <in>two_view_geometry.cc</in>
+          <in>two_view_geometry.h</in>
+          <in>utils.cc</in>
+          <in>utils.h</in>
+          <in>utils_test.cc</in>
+        </df>
+        <df name="exe">
+          <in>colmap.cc</in>
+        </df>
+        <df name="ext">
+          <df name="FLANN">
+            <df name="algorithms">
+              <in>all_indices.h</in>
+              <in>autotuned_index.h</in>
+              <in>center_chooser.h</in>
+              <in>composite_index.h</in>
+              <in>dist.h</in>
+              <in>hierarchical_clustering_index.h</in>
+              <in>kdtree_cuda_3d_index.h</in>
+              <in>kdtree_cuda_builder.h</in>
+              <in>kdtree_index.h</in>
+              <in>kdtree_single_index.h</in>
+              <in>kmeans_index.h</in>
+              <in>linear_index.h</in>
+              <in>lsh_index.h</in>
+              <in>nn_index.h</in>
+            </df>
+            <df name="ext">
+              <in>lz4.c</in>
+              <in>lz4.h</in>
+              <in>lz4hc.c</in>
+              <in>lz4hc.h</in>
+            </df>
+            <df name="io">
+              <in>hdf5.h</in>
+            </df>
+            <df name="mpi">
+              <in>client.h</in>
+              <in>flann_mpi_client.cpp</in>
+              <in>flann_mpi_server.cpp</in>
+              <in>index.h</in>
+              <in>matrix.h</in>
+              <in>queries.h</in>
+              <in>server.h</in>
+            </df>
+            <df name="nn">
+              <in>ground_truth.h</in>
+              <in>index_testing.h</in>
+              <in>simplex_downhill.h</in>
+            </df>
+            <df name="util">
+              <df name="cuda">
+                <in>heap.h</in>
+                <in>result_set.h</in>
+              </df>
+              <in>allocator.h</in>
+              <in>any.h</in>
+              <in>cutil_math.h</in>
+              <in>dynamic_bitset.h</in>
+              <in>heap.h</in>
+              <in>logger.h</in>
+              <in>lsh_table.h</in>
+              <in>matrix.h</in>
+              <in>object_factory.h</in>
+              <in>params.h</in>
+              <in>random.h</in>
+              <in>result_set.h</in>
+              <in>sampling.h</in>
+              <in>saving.h</in>
+              <in>serialization.h</in>
+              <in>timer.h</in>
+            </df>
+            <in>config.h</in>
+            <in>defines.h</in>
+            <in>flann.cpp</in>
+            <in>flann.h</in>
+            <in>flann.hpp</in>
+            <in>general.h</in>
+          </df>
+          <df name="Graclus">
+            <df name="metisLib">
+              <in>balance.c</in>
+              <in>bucketsort.c</in>
+              <in>ccgraph.c</in>
+              <in>coarsen.c</in>
+              <in>compress.c</in>
+              <in>debug.c</in>
+              <in>defs.h</in>
+              <in>estmem.c</in>
+              <in>fm.c</in>
+              <in>fortran.c</in>
+              <in>frename.c</in>
+              <in>graph.c</in>
+              <in>initpart.c</in>
+              <in>kmetis.c</in>
+              <in>kvmetis.c</in>
+              <in>kwayfm.c</in>
+              <in>kwayrefine.c</in>
+              <in>kwayvolfm.c</in>
+              <in>kwayvolrefine.c</in>
+              <in>macros.h</in>
+              <in>match.c</in>
+              <in>mbalance.c</in>
+              <in>mbalance2.c</in>
+              <in>mcoarsen.c</in>
+              <in>memory.c</in>
+              <in>mesh.c</in>
+              <in>meshpart.c</in>
+              <in>metis.c</in>
+              <in>metis.h</in>
+              <in>mfm.c</in>
+              <in>mfm2.c</in>
+              <in>mincover.c</in>
+              <in>minitpart.c</in>
+              <in>minitpart2.c</in>
+              <in>mkmetis.c</in>
+              <in>mkwayfmh.c</in>
+              <in>mkwayrefine.c</in>
+              <in>mmatch.c</in>
+              <in>mmd.c</in>
+              <in>mpmetis.c</in>
+              <in>mrefine.c</in>
+              <in>mrefine2.c</in>
+              <in>mutil.c</in>
+              <in>myqsort.c</in>
+              <in>ometis.c</in>
+              <in>parmetis.c</in>
+              <in>pmetis.c</in>
+              <in>pqueue.c</in>
+              <in>proto.h</in>
+              <in>refine.c</in>
+              <in>rename.h</in>
+              <in>separator.c</in>
+              <in>sfm.c</in>
+              <in>srefine.c</in>
+              <in>stat.c</in>
+              <in>struct.h</in>
+              <in>subdomains.c</in>
+              <in>timing.c</in>
+              <in>util.c</in>
+            </df>
+            <df name="multilevelLib">
+              <in>mlkkm.c</in>
+              <in>wkkm.c</in>
+              <in>wkkm_boundary_only.c</in>
+              <in>wkkm_experiment.c</in>
+              <in>wkkm_old.c</in>
+            </df>
+          </df>
+          <df name="LSD">
+            <in>lsd.c</in>
+            <in>lsd.h</in>
+          </df>
+          <df name="PBA">
+            <in>ConfigBA.cpp</in>
+            <in>ConfigBA.h</in>
+            <in>CuTexImage.cpp</in>
+            <in>CuTexImage.h</in>
+            <in>DataInterface.h</in>
+            <in>ProgramCU.h</in>
+            <in>SparseBundleCPU.cpp</in>
+            <in>SparseBundleCPU.h</in>
+            <in>SparseBundleCU.cpp</in>
+            <in>SparseBundleCU.h</in>
+            <in>pba.cpp</in>
+            <in>pba.h</in>
+            <in>util.h</in>
+          </df>
+          <df name="PoissonRecon">
+            <in>Allocator.h</in>
+            <in>Array.h</in>
+            <in>Array.inl</in>
+            <in>BSplineData.h</in>
+            <in>BSplineData.inl</in>
+            <in>BinaryNode.h</in>
+            <in>CmdLineParser.cpp</in>
+            <in>CmdLineParser.h</in>
+            <in>CmdLineParser.inl</in>
+            <in>Factor.cpp</in>
+            <in>Factor.h</in>
+            <in>FunctionData.h</in>
+            <in>FunctionData.inl</in>
+            <in>Geometry.cpp</in>
+            <in>Geometry.h</in>
+            <in>Geometry.inl</in>
+            <in>Hash.h</in>
+            <in>MAT.h</in>
+            <in>MAT.inl</in>
+            <in>MarchingCubes.cpp</in>
+            <in>MarchingCubes.h</in>
+            <in>MemoryUsage.h</in>
+            <in>MultiGridOctreeData.Evaluation.inl</in>
+            <in>MultiGridOctreeData.IsoSurface.inl</in>
+            <in>MultiGridOctreeData.SortedTreeNodes.inl</in>
+            <in>MultiGridOctreeData.System.inl</in>
+            <in>MultiGridOctreeData.WeightedSamples.inl</in>
+            <in>MultiGridOctreeData.h</in>
+            <in>MultiGridOctreeData.inl</in>
+            <in>MyTime.h</in>
+            <in>Octree.h</in>
+            <in>Octree.inl</in>
+            <in>PPolynomial.h</in>
+            <in>PPolynomial.inl</in>
+            <in>Ply.h</in>
+            <in>PlyFile.cpp</in>
+            <in>PointStream.h</in>
+            <in>PointStream.inl</in>
+            <in>PoissonRecon.cpp</in>
+            <in>PoissonRecon.h</in>
+            <in>Polynomial.h</in>
+            <in>Polynomial.inl</in>
+            <in>SparseMatrix.h</in>
+            <in>SparseMatrix.inl</in>
+            <in>SurfaceTrimmer.cpp</in>
+            <in>SurfaceTrimmer.h</in>
+          </df>
+          <df name="SiftGPU">
+            <in>CLTexImage.cpp</in>
+            <in>CLTexImage.h</in>
+            <in>CuTexImage.cpp</in>
+            <in>CuTexImage.h</in>
+            <in>FrameBufferObject.cpp</in>
+            <in>FrameBufferObject.h</in>
+            <in>GLTexImage.cpp</in>
+            <in>GLTexImage.h</in>
+            <in>GlobalUtil.cpp</in>
+            <in>GlobalUtil.h</in>
+            <in>LiteWindow.h</in>
+            <in>ProgramCG.cpp</in>
+            <in>ProgramCG.h</in>
+            <in>ProgramCL.cpp</in>
+            <in>ProgramCL.h</in>
+            <in>ProgramCU.h</in>
+            <in>ProgramGLSL.cpp</in>
+            <in>ProgramGLSL.h</in>
+            <in>ProgramGPU.h</in>
+            <in>PyramidCL.cpp</in>
+            <in>PyramidCL.h</in>
+            <in>PyramidCU.cpp</in>
+            <in>PyramidCU.h</in>
+            <in>PyramidGL.cpp</in>
+            <in>PyramidGL.h</in>
+            <in>ShaderMan.cpp</in>
+            <in>ShaderMan.h</in>
+            <in>SiftGPU.cpp</in>
+            <in>SiftGPU.h</in>
+            <in>SiftMatch.cpp</in>
+            <in>SiftMatch.h</in>
+            <in>SiftMatchCU.cpp</in>
+            <in>SiftMatchCU.h</in>
+            <in>SiftPyramid.cpp</in>
+            <in>SiftPyramid.h</in>
+          </df>
+          <df name="SQLite">
+            <in>shell.c</in>
+            <in>sqlite3.c</in>
+            <in>sqlite3.h</in>
+            <in>sqlite3ext.h</in>
+          </df>
+          <df name="VLFeat">
+            <in>aib.c</in>
+            <in>aib.h</in>
+            <in>array.c</in>
+            <in>array.h</in>
+            <in>covdet.c</in>
+            <in>covdet.h</in>
+            <in>dsift.c</in>
+            <in>dsift.h</in>
+            <in>fisher.c</in>
+            <in>fisher.h</in>
+            <in>float.h</in>
+            <in>generic.c</in>
+            <in>generic.h</in>
+            <in>getopt_long.c</in>
+            <in>getopt_long.h</in>
+            <in>gmm.c</in>
+            <in>gmm.h</in>
+            <in>heap-def.h</in>
+            <in>hikmeans.c</in>
+            <in>hikmeans.h</in>
+            <in>hog.c</in>
+            <in>hog.h</in>
+            <in>homkermap.c</in>
+            <in>homkermap.h</in>
+            <in>host.c</in>
+            <in>host.h</in>
+            <in>ikmeans.c</in>
+            <in>ikmeans.h</in>
+            <in>ikmeans_elkan.tc</in>
+            <in>ikmeans_init.tc</in>
+            <in>ikmeans_lloyd.tc</in>
+            <in>imopv.c</in>
+            <in>imopv.h</in>
+            <in>imopv_sse2.c</in>
+            <in>imopv_sse2.h</in>
+            <in>kdtree.c</in>
+            <in>kdtree.h</in>
+            <in>kmeans.c</in>
+            <in>kmeans.h</in>
+            <in>lbp.c</in>
+            <in>lbp.h</in>
+            <in>liop.c</in>
+            <in>liop.h</in>
+            <in>mathop.c</in>
+            <in>mathop.h</in>
+            <in>mathop_avx.c</in>
+            <in>mathop_avx.h</in>
+            <in>mathop_sse2.c</in>
+            <in>mathop_sse2.h</in>
+            <in>mser.c</in>
+            <in>mser.h</in>
+            <in>pgm.c</in>
+            <in>pgm.h</in>
+            <in>qsort-def.h</in>
+            <in>quickshift.c</in>
+            <in>quickshift.h</in>
+            <in>random.c</in>
+            <in>random.h</in>
+            <in>rodrigues.c</in>
+            <in>rodrigues.h</in>
+            <in>scalespace.c</in>
+            <in>scalespace.h</in>
+            <in>shuffle-def.h</in>
+            <in>sift.c</in>
+            <in>sift.h</in>
+            <in>slic.c</in>
+            <in>slic.h</in>
+            <in>stringop.c</in>
+            <in>stringop.h</in>
+            <in>svm.c</in>
+            <in>svm.h</in>
+            <in>svmdataset.c</in>
+            <in>svmdataset.h</in>
+            <in>vlad.c</in>
+            <in>vlad.h</in>
+          </df>
+        </df>
+        <df name="feature">
+          <in>extraction.cc</in>
+          <in>extraction.h</in>
+          <in>feature.cc</in>
+          <in>matching.cc</in>
+          <in>matching.h</in>
+          <in>sift.cc</in>
+          <in>sift.h</in>
+          <in>sift_test.cc</in>
+          <in>types.cc</in>
+          <in>types.h</in>
+          <in>types_test.cc</in>
+          <in>utils.cc</in>
+          <in>utils.h</in>
+          <in>utils_test.cc</in>
+        </df>
+        <df name="mvs">
+          <in>consistency_graph.cc</in>
+          <in>consistency_graph.h</in>
+          <in>consistency_graph_test.cc</in>
+          <in>cuda_array_wrapper.h</in>
+          <in>cuda_flip.h</in>
+          <in>cuda_rotate.h</in>
+          <in>cuda_transpose.h</in>
+          <in>depth_map.cc</in>
+          <in>depth_map.h</in>
+          <in>depth_map_test.cc</in>
+          <in>fusion.cc</in>
+          <in>fusion.h</in>
+          <in>gpu_mat.h</in>
+          <in>gpu_mat_prng.h</in>
+          <in>gpu_mat_ref_image.h</in>
+          <in>image.cc</in>
+          <in>image.h</in>
+          <in>mat.h</in>
+          <in>mat_test.cc</in>
+          <in>meshing.cc</in>
+          <in>meshing.h</in>
+          <in>model.cc</in>
+          <in>model.h</in>
+          <in>normal_map.cc</in>
+          <in>normal_map.h</in>
+          <in>normal_map_test.cc</in>
+          <in>patch_match.cc</in>
+          <in>patch_match.h</in>
+          <in>patch_match_cuda.h</in>
+          <in>segmentation.cpp</in>
+          <in>segmentation.h</in>
+          <in>workspace.cc</in>
+          <in>workspace.h</in>
+        </df>
+        <df name="optim">
+          <in>bundle_adjustment.cc</in>
+          <in>bundle_adjustment.h</in>
+          <in>bundle_adjustment_test.cc</in>
+          <in>combination_sampler.cc</in>
+          <in>combination_sampler.h</in>
+          <in>combination_sampler_test.cc</in>
+          <in>least_absolute_deviations.cc</in>
+          <in>least_absolute_deviations.h</in>
+          <in>least_absolute_deviations_test.cc</in>
+          <in>loransac.h</in>
+          <in>loransac_test.cc</in>
+          <in>progressive_sampler.cc</in>
+          <in>progressive_sampler.h</in>
+          <in>progressive_sampler_test.cc</in>
+          <in>random_sampler.cc</in>
+          <in>random_sampler.h</in>
+          <in>random_sampler_test.cc</in>
+          <in>ransac.h</in>
+          <in>ransac_test.cc</in>
+          <in>sampler.h</in>
+          <in>sprt.cc</in>
+          <in>sprt.h</in>
+          <in>support_measurement.cc</in>
+          <in>support_measurement.h</in>
+          <in>support_measurement_test.cc</in>
+        </df>
+        <df name="retrieval">
+          <in>geometry.cc</in>
+          <in>geometry.h</in>
+          <in>geometry_test.cc</in>
+          <in>inverted_file.h</in>
+          <in>inverted_file_entry.h</in>
+          <in>inverted_file_entry_test.cc</in>
+          <in>inverted_index.h</in>
+          <in>utils.h</in>
+          <in>visual_index.h</in>
+          <in>visual_index_test.cc</in>
+          <in>vote_and_verify.cc</in>
+          <in>vote_and_verify.h</in>
+        </df>
+        <df name="sfm">
+          <in>incremental_mapper.cc</in>
+          <in>incremental_mapper.h</in>
+          <in>incremental_triangulator.cc</in>
+          <in>incremental_triangulator.h</in>
+        </df>
+        <df name="tools">
+          <in>example.cc</in>
+        </df>
+        <df name="ui">
+          <df name="media">
+          </df>
+          <df name="shaders">
+          </df>
+          <in>automatic_reconstruction_widget.cc</in>
+          <in>automatic_reconstruction_widget.h</in>
+          <in>bundle_adjustment_widget.cc</in>
+          <in>bundle_adjustment_widget.h</in>
+          <in>colormaps.cc</in>
+          <in>colormaps.h</in>
+          <in>database_management_widget.cc</in>
+          <in>database_management_widget.h</in>
+          <in>dense_reconstruction_widget.cc</in>
+          <in>dense_reconstruction_widget.h</in>
+          <in>feature_extraction_widget.cc</in>
+          <in>feature_extraction_widget.h</in>
+          <in>feature_matching_widget.cc</in>
+          <in>feature_matching_widget.h</in>
+          <in>image_viewer_widget.cc</in>
+          <in>image_viewer_widget.h</in>
+          <in>license_widget.cc</in>
+          <in>license_widget.h</in>
+          <in>line_painter.cc</in>
+          <in>line_painter.h</in>
+          <in>log_widget.cc</in>
+          <in>log_widget.h</in>
+          <in>main_window.cc</in>
+          <in>main_window.h</in>
+          <in>match_matrix_widget.cc</in>
+          <in>match_matrix_widget.h</in>
+          <in>model_viewer_widget.cc</in>
+          <in>model_viewer_widget.h</in>
+          <in>movie_grabber_widget.cc</in>
+          <in>movie_grabber_widget.h</in>
+          <in>options_widget.cc</in>
+          <in>options_widget.h</in>
+          <in>point_painter.cc</in>
+          <in>point_painter.h</in>
+          <in>point_viewer_widget.cc</in>
+          <in>point_viewer_widget.h</in>
+          <in>project_widget.cc</in>
+          <in>project_widget.h</in>
+          <in>qt_utils.cc</in>
+          <in>qt_utils.h</in>
+          <in>reconstruction_manager_widget.cc</in>
+          <in>reconstruction_manager_widget.h</in>
+          <in>reconstruction_options_widget.cc</in>
+          <in>reconstruction_options_widget.h</in>
+          <in>reconstruction_stats_widget.cc</in>
+          <in>reconstruction_stats_widget.h</in>
+          <in>render_options.cc</in>
+          <in>render_options.h</in>
+          <in>render_options_widget.cc</in>
+          <in>render_options_widget.h</in>
+          <in>thread_control_widget.cc</in>
+          <in>thread_control_widget.h</in>
+          <in>triangle_painter.cc</in>
+          <in>triangle_painter.h</in>
+          <in>undistortion_widget.cc</in>
+          <in>undistortion_widget.h</in>
+        </df>
+        <df name="util">
+          <in>alignment.h</in>
+          <in>bitmap.cc</in>
+          <in>bitmap.h</in>
+          <in>bitmap_test.cc</in>
+          <in>cache.h</in>
+          <in>cache_test.cc</in>
+          <in>camera_specs.cc</in>
+          <in>camera_specs.h</in>
+          <in>cuda.cc</in>
+          <in>cuda.h</in>
+          <in>cudacc.cc</in>
+          <in>cudacc.h</in>
+          <in>endian.h</in>
+          <in>endian_test.cc</in>
+          <in>logging.cc</in>
+          <in>logging.h</in>
+          <in>math.cc</in>
+          <in>math.h</in>
+          <in>math_test.cc</in>
+          <in>matrix.h</in>
+          <in>matrix_test.cc</in>
+          <in>misc.cc</in>
+          <in>misc.h</in>
+          <in>misc_test.cc</in>
+          <in>opengl_utils.cc</in>
+          <in>opengl_utils.h</in>
+          <in>opengl_utils_test.cc</in>
+          <in>option_manager.cc</in>
+          <in>option_manager.h</in>
+          <in>ply.cc</in>
+          <in>ply.h</in>
+          <in>random.cc</in>
+          <in>random.h</in>
+          <in>random_test.cc</in>
+          <in>sqlite3_utils.h</in>
+          <in>string.cc</in>
+          <in>string.h</in>
+          <in>string_test.cc</in>
+          <in>testing.h</in>
+          <in>threading.cc</in>
+          <in>threading.h</in>
+          <in>threading_test.cc</in>
+          <in>timer.cc</in>
+          <in>timer.h</in>
+          <in>timer_test.cc</in>
+          <in>types.h</in>
+          <in>version.cc</in>
+          <in>version.h</in>
+        </df>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>build/Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>build</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

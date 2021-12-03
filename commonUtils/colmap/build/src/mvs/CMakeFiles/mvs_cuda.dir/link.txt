@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmvs_cuda.a  CMakeFiles/mvs_cuda.dir/patch_match.cc.o CMakeFiles/mvs_cuda.dir/mvs_cuda_generated_gpu_mat_prng.cu.o CMakeFiles/mvs_cuda.dir/mvs_cuda_generated_gpu_mat_ref_image.cu.o CMakeFiles/mvs_cuda.dir/mvs_cuda_generated_patch_match_cuda.cu.o
+/usr/bin/ranlib libmvs_cuda.a

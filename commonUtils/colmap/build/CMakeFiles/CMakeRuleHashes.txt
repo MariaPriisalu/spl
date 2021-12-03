@@ -1,0 +1,8 @@
+# Hashes of file build rules.
+c2d2a8d9330b75c28cf098f55cdcdfae CMakeFiles/uninstall
+8798a2baa3f8bd05e901a2397f9c62df src/ext/PBA/CMakeFiles/pba.dir/pba_generated_ProgramCU.cu.o
+b57a3c1c779dd7863f98ccc6d9fc741d src/ext/SiftGPU/CMakeFiles/sift_gpu.dir/sift_gpu_generated_ProgramCU.cu.o
+982edde79ef52586e02c37c819f1904c src/mvs/CMakeFiles/mvs_cuda.dir/mvs_cuda_generated_gpu_mat_prng.cu.o
+2bedce46f9343f12198a4b193d0808df src/mvs/CMakeFiles/mvs_cuda.dir/mvs_cuda_generated_gpu_mat_ref_image.cu.o
+255f15d1be4614fd2b9ba84a36cd59a2 src/mvs/CMakeFiles/mvs_cuda.dir/mvs_cuda_generated_patch_match_cuda.cu.o
+718e2790f4906e410fb19d71fee5006c src/ui/qrc_resources.cpp

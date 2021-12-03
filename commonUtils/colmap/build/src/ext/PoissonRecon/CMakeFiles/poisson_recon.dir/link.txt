@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpoisson_recon.a  CMakeFiles/poisson_recon.dir/CmdLineParser.cpp.o CMakeFiles/poisson_recon.dir/Factor.cpp.o CMakeFiles/poisson_recon.dir/Geometry.cpp.o CMakeFiles/poisson_recon.dir/MarchingCubes.cpp.o CMakeFiles/poisson_recon.dir/PlyFile.cpp.o CMakeFiles/poisson_recon.dir/PoissonRecon.cpp.o CMakeFiles/poisson_recon.dir/SurfaceTrimmer.cpp.o
+/usr/bin/ranlib libpoisson_recon.a

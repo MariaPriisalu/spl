@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmvs.a  CMakeFiles/mvs.dir/consistency_graph.cc.o CMakeFiles/mvs.dir/depth_map.cc.o CMakeFiles/mvs.dir/fusion.cc.o CMakeFiles/mvs.dir/image.cc.o CMakeFiles/mvs.dir/meshing.cc.o CMakeFiles/mvs.dir/model.cc.o CMakeFiles/mvs.dir/normal_map.cc.o CMakeFiles/mvs.dir/workspace.cc.o
+/usr/bin/ranlib libmvs.a

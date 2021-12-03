@@ -1,0 +1,2 @@
+/usr/bin/ar qc liboptim.a  CMakeFiles/optim.dir/bundle_adjustment.cc.o CMakeFiles/optim.dir/combination_sampler.cc.o CMakeFiles/optim.dir/least_absolute_deviations.cc.o CMakeFiles/optim.dir/progressive_sampler.cc.o CMakeFiles/optim.dir/random_sampler.cc.o CMakeFiles/optim.dir/sprt.cc.o CMakeFiles/optim.dir/support_measurement.cc.o
+/usr/bin/ranlib liboptim.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpba.a  CMakeFiles/pba.dir/ConfigBA.cpp.o CMakeFiles/pba.dir/CuTexImage.cpp.o CMakeFiles/pba.dir/pba.cpp.o CMakeFiles/pba.dir/SparseBundleCPU.cpp.o CMakeFiles/pba.dir/SparseBundleCU.cpp.o CMakeFiles/pba.dir/pba_generated_ProgramCU.cu.o
+/usr/bin/ranlib libpba.a
