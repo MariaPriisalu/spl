@@ -21,7 +21,7 @@
 *.tar
 *.zip
 *.mp4
-*.txt
+
 
 # Logs and databases #
 ######################
