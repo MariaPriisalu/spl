@@ -23,7 +23,7 @@ needed for the pybind11 submodule:
 
 ```bash
 git clone --recursive https://github.com/pybind/cmake_example.git
-pip install ./pfnncharacter
+pip install ./
 ```
 
 With the `setup.py` file included in this example, the `pip install` command will
