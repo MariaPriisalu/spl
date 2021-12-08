@@ -35,7 +35,7 @@ episode_nbr=0
 def run_carla_client( args):
     # Here we will run 3 episodes with 300 frames each.
     number_of_episodes = 150
-    frames_per_episode = 1500
+    frames_per_episode = 500
 
     # for start_i in range(150):
     #     if start_i%4==0:
@@ -57,9 +57,9 @@ def run_carla_client( args):
         print('CarlaClient connected')
         global episode_nbr
         print (episode_nbr)
-        for episode in range(0,150):
-            if episode % 4 == 0:
-                output_folder = 'Packages/CARLA_0.8.2/PythonClient/new_data-viz/test_' + str(episode)
+        for episode in range(0,number_of_episodes):
+            if episode % 1 == 0:
+                output_folder = 'Datasets/carla-sync/train/test_' + str(episode)
                 if not os.path.exists(output_folder+"/cameras.p"):
                     # Start a new episode.
                     episode_nbr=episode
@@ -117,7 +117,7 @@ def run_carla_client( args):
                     number_of_player_starts = len(scene.player_start_spots)
                     player_start = episode#random.randint(0, max(0, number_of_player_starts - 1))
 
-                    output_folder = 'Packages/CARLA_0.8.2/PythonClient/new_data-viz/test_' + str(episode)
+                    output_folder = 'Datasets/carla-sync/train/test_' + str(episode)
                     # Notify the server that we want to start the episode at the
                     # player_start index. This function blocks until the server is ready
                     # to start the episode.

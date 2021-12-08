@@ -10,6 +10,8 @@
    can visualize with MeshLab (meshlab.net) for instance. Please
    refer to client_example.py for a simpler and more documented example."""
 
+# Used to gather visualization dataset
+
 from __future__ import print_function
 
 import argparse
@@ -32,8 +34,8 @@ import pickle
 
 def run_carla_client(host, port, far):
     # Here we will run a single episode with 300 frames.
-    number_of_frames = 30
-    frame_step = 10  # Save one image every 100 frames
+    number_of_frames = 500
+    frame_step = 50  # Save one image every 100 frames
 
     image_size = [800, 600]
     camera_local_pos = [0.3, 0.0, 1.3] # [X, Y, Z]
@@ -42,7 +44,7 @@ def run_carla_client(host, port, far):
     autopilot=False
     control = VehicleControl()
     for start_i in range(150):
-        output_folder = 'Packages/CARLA_0.8.2/PythonClient/_out/pos_' + str(start_i)
+        output_folder = 'Packages/CARLA_0.8.2/PythonClient/_out/test_' + str(start_i)
         if not os.path.exists(output_folder):
             os.mkdir(output_folder)
             print( "make "+str(output_folder))
@@ -51,7 +53,7 @@ def run_carla_client(host, port, far):
     with make_carla_client(host, port) as client:
         print('CarlaClient connected')
         for start_i in range(150):
-            output_folder = 'Packages/CARLA_0.8.2/PythonClient/_out/pos_' + str(start_i)
+            output_folder = 'Packages/CARLA_0.8.2/PythonClient/_out/test_' + str(start_i)
             print(output_folder)
 
             # Here we load the settings.

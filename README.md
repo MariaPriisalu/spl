@@ -65,7 +65,7 @@ python RL/visualization_scripts/Visualize_evaluation.py
 from spl/.
 
 ### Licence
-This work utilizes [CARLA](https://github.com/carla-simulator/carla) (MIT Licence), [Waymo](https://github.com/waymo-research/waymo-open-dataset) (Apache Licence), [PFNN](https://github.com/sreyafrancis/PFNN) (free for academic use), [COLMAP](https://colmap.github.io/license.html) (new BSD licence), [Cityscapes](https://github.com/mcordts/cityscapesScripts) (the Cityscapes licence - free for non-profit use), [GRFP](https://github.com/D-Nilsson/GRFP) (free for academic use) as well as the list of libraries in the yml file. 
+This work utilizes [CARLA](https://github.com/carla-simulator/carla) (MIT Licence), [Waymo](https://github.com/waymo-research/waymo-open-dataset) (Apache Licence), [PFNN](https://github.com/sreyafrancis/PFNN) (free for academic use), [COLMAP](https://colmap.github.io/license.html) (new BSD licence), [Cityscapes](https://github.com/mcordts/cityscapesScripts) (the Cityscapes licence - free for non-profit use), [GRFP](https://github.com/D-Nilsson/GRFP) (free for academic use), and [PANet](https://github.com/ShuLiu1993/PANet) as well as the list of libraries in the yml file. 
 The requirements of the licences that the work builds upon apply. Note that different licences may apply to different directories. We wish to allow the use of our repository in academia freely or as much as allowed by the licences of our dependencies. We provide no warranties on the code.
 
 
@@ -102,14 +102,25 @@ To install pfnncharacter enter `commonUtils/PFNNBaseCode` and follow the README.
 ## CARLA
 In CARLA 0.8.2 or 0.9.4 you can gather the equivalent dataset with the scripts in `CARLA_simulation_client`.
 
+The original CARLA dataset has been gathered with CARLA 0.8.2. You can find the client script for gathering the data in `CARLA_simulation_client/gather_dataset.py`. This script gathers 3D reconstructions of scenes (i.e. depth+images+ semantic segmentation) every 50th frame and images and bounding boxes of moving objects at every frame. 
+Gather a training set (path to folder in `settings.py` `self.carla_path`) with the script on `CARLA_simulation_client/gather_dataset.py` Town 1 and all of the test data is created on Town 2, which should be placed in `self.carla_path_test`.
+You can change `output_folder` as necessary.
+
+Next to combine the static objects in the `.ply` (viewable in Meshlab) files run `carla_utils/combine_reconstructions.py`.
+
+
+
 ## Cityscapes
-To create the Cityscapes dataset you need to have downloaded the cityscapes dataset, and you need to attain the semantic segmentation and bounding boxes of each image. After this the scripts in colmap can be used to create 3d reconstructions of the dataset.  
-The adapted colmap (that use semantic segmentation as well as RGB) can be found [here](https://github.com/MariaPriisalu/colmap)
+To create the Cityscapes dataset you need to have downloaded the cityscapes dataset, and you need to attain the semantic segmentation (originally from [GRFP](https://github.com/D-Nilsson/GRFP)) and bounding boxes of each image (originally from [PANNET](https://github.com/ShuLiu1993/PANet)). After this the scripts in colmap can be used to create 3d reconstructions of the dataset.  
+The adapted colmap (that use semantic segmentation as well as RGB) can be found [here](https://github.com/MariaPriisalu/colmap).
+Due to Cityscapes licensing we cannot release our adapted Cityscapes dataset. We kindly ask you to reconstruct our results with the provided scripts.
 
 ## Waymo dataset
-Please check the documentation of the fork here to understand how to use the pipeline to get out the dataset needed for training/visualization [here](https://github.com/AGAPIA/waymo-open-dataset). Also it currently depends on the segmentation from [here](https://github.com/AGAPIA/semantic-segmentation-pytorch)
+Please check the documentation of the fork here to understand how to use the pipeline to get out the dataset needed for training/visualization [the adapted Waymo repo](https://github.com/AGAPIA/waymo-open-dataset). Also it currently depends on the segmentation from [ResNet50dilated + PPM_deepsup](https://github.com/AGAPIA/semantic-segmentation-pytorch)
 
 Use script <code>RL/visualization_scripts/show_real_reconstruction_small.py</code> for visualization purposes and an example on how to initialize correctly data data for setting up the environment.
+Due to Cityscapes licensing we cannot release our adapted Waymo dataset. We kindly ask you to reconstruct our dataset with the provided scripts.
+
 ### Caching mechanism
 The caching of episodes data happens in <code>environment_abstract.py</code>, inside <code>set_up_episode</code> function. This means that the first time around may be slow, but once the dataset is cached everything will run faster.
 
@@ -125,7 +136,7 @@ Models mentioned in the ACCV paper can be found in `localData/Models/SemanticPed
 
 There are two CARLA agents: a goal free generative/forecasting model and a goal-driven generative model.
 
-On the Waymo dataset there is one agent: a goal free generative/forecasting model.
+On the Waymo dataset there is one agent: a goal free generative/forecasting model. Due to Waymo licencing we are not able to release the weights of the fully trained network publicly.
 
 On the Cityscapes dataset there is one agent: goal-driven generative model.
 

@@ -19,7 +19,6 @@
 *.jar
 *.rar
 *.tar
-*.zip
 *.mp4
 
 
@@ -62,3 +61,5 @@ commonUtils/PFNNBaseCode/Parameters/SpeedConvertorData/.~lock.speeds.csv#
 commonUtils/PFNNBaseCode/cmake-build-debug/
 /.run/
 localUserData/Results/*
+# According to Waymo licensing we are not allowed to release weights of data trained on the Waymo dataset.
+localData/Models/SemanticPedestrian/waymo/*
