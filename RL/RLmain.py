@@ -1189,7 +1189,7 @@ class RL(object):
             config.gpu_options.allow_growth = True
             sess=tf.Session(graph=tf.get_default_graph(), config=config)
 
-        elif settings.goal_agent:
+        if settings.goal_agent:
 
             agent = GoalAgent(settings)
         elif settings.pedestrian_agent:
