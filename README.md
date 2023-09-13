@@ -119,6 +119,8 @@ To create the Cityscapes dataset you need to have downloaded the cityscapes data
 The adapted colmap (that use semantic segmentation as well as RGB) can be found [here](https://github.com/MariaPriisalu/colmap).
 Due to Cityscapes licensing we cannot release our adapted Cityscapes dataset. We kindly ask you to reconstruct our results with the provided scripts.
 
+For details please refer to the technical report _Semantic and Articulated Pedestrian Sensing Onboard a Moving Vehicle_ available [here](https://arxiv.org/pdf/2309.06313.pdf).
+
 ## Waymo dataset
 Please check the documentation of the fork here to understand how to use the pipeline to get out the dataset needed for training/visualization [the adapted Waymo repo](https://github.com/AGAPIA/waymo-open-dataset). Also it currently depends on the segmentation from [ResNet50dilated + PPM_deepsup](https://github.com/AGAPIA/semantic-segmentation-pytorch)
 
