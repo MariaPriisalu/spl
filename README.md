@@ -18,6 +18,7 @@ You can find the paper _Generating Scenarios with Diverse Pedestrian Behaviors f
 ![poster](https://github.com/MariaPriisalu/spl/blob/master/Corl-poster-final.png?raw=true)
 
 The techincal report _Semantic and Articulated Pedestrian Sensing Onboard a Moving Vehicle_ adresses the 3D reconstruction of the scene and the pedestrians in the Cityscapes dataset available [here](https://arxiv.org/pdf/2309.06313.pdf) with supplementary video available at [here](https://youtu.be/qpxpdtHbbGA?si=X5OkjVTXDSlXN-Pu).
+
 **Authors:** [Maria Priisalu](http://www.maths.lth.se/sminchisescu/research/profile/7/maria-priisalu)
 
 ### Overview
